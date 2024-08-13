@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "frisenbrief-bot"
+version = "0.1.0"
+description = "Konvertiert Mailanhänge zu LaTeX"
+authors = ["Johannes Arnold <johannes.arnold@stud.uni-hannover.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pypandoc = "^1.13"
+textract = "^1.6.5"
+pylatexenc = "^2.10"
+imbox = "^0.9.8"
+rich = "^13.7.1"
+pathvalidate = "^3.2.0"
+black = "^24.8.0"
+tqdm = "^4.66.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
